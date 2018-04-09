@@ -1,0 +1,167 @@
+
+ans = 
+
+           cycleno: 1
+             cycle: [1 2 3]
+            weight: [20 17 50]
+           working: 87
+             spare: 150
+        finalspare: 80
+    finalsparepath: 4
+     hoplimitexist: 0
+
+
+ans = 
+
+           cycleno: 2
+             cycle: [1 3 4]
+            weight: [50 20 19]
+           working: 89
+             spare: 150
+        finalspare: 80
+    finalsparepath: 4
+     hoplimitexist: 0
+
+
+ans = 
+
+           cycleno: 3
+             cycle: [1 3 6]
+            weight: [50 20 30]
+           working: 100
+             spare: 150
+        finalspare: 120
+    finalsparepath: 5
+     hoplimitexist: 1
+
+
+ans = 
+
+           cycleno: 4
+             cycle: [1 2 3 4]
+            weight: [20 17 20 19]
+           working: 126
+             spare: 80
+        finalspare: 80
+    finalsparepath: 4
+     hoplimitexist: 0
+
+
+ans = 
+
+           cycleno: 5
+             cycle: [1 2 3 6]
+            weight: [20 17 20 30]
+           working: 137
+             spare: 120
+        finalspare: 120
+    finalsparepath: 5
+     hoplimitexist: 0
+
+
+ans = 
+
+           cycleno: 6
+             cycle: [1 4 5 6]
+            weight: [19 20 19 30]
+           working: 88
+             spare: 120
+        finalspare: 120
+    finalsparepath: 6
+     hoplimitexist: 0
+
+
+ans = 
+
+           cycleno: 7
+             cycle: [3 4 5 6]
+            weight: [20 20 19 20]
+           working: 79
+             spare: 80
+        finalspare: 80
+    finalsparepath: 7
+     hoplimitexist: 0
+
+
+ans = 
+
+           cycleno: 8
+             cycle: [1 3 4 5 6]
+            weight: [50 20 20 19 30]
+           working: 178
+             spare: 250
+        finalspare: 120
+    finalsparepath: 11
+     hoplimitexist: 0
+
+
+ans = 
+
+           cycleno: 9
+             cycle: [1 3 6 5 4]
+            weight: [50 20 19 20 19]
+           working: 178
+             spare: 250
+        finalspare: 120
+    finalsparepath: 11
+     hoplimitexist: 0
+
+
+ans = 
+
+           cycleno: 10
+             cycle: [1 2 3 4 5 6]
+            weight: [20 17 20 20 19 30]
+           working: 215
+             spare: 180
+        finalspare: 120
+    finalsparepath: 11
+     hoplimitexist: 0
+
+
+ans = 
+
+           cycleno: 11
+             cycle: [1 2 3 6 5 4]
+            weight: [20 17 20 19 20 19]
+           working: 215
+             spare: 120
+        finalspare: 120
+    finalsparepath: 11
+     hoplimitexist: 0
+
+
+working = 
+
+    [87]    [89]    [100]    [126]    [137]    [88]    [79]    [178]    [178]    [215]    [215]
+
+
+spare = 
+
+    [150]    [150]    [150]    [80]    [120]    [120]    [80]    [250]    [250]    [180]    [120]
+
+
+finalspare = 
+
+    [80]    [80]    [120]    [80]    [120]    [120]    [80]    [120]    [120]    [120]    [120]
+
+
+totalworking =
+
+        1492
+
+
+sparebeforepcycle =
+
+        1650
+
+
+spareafterpcycle =
+
+        1160
+
+
+sparereduction =
+
+   490
+
